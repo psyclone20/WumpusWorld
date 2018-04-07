@@ -1,7 +1,7 @@
 # WumpusWorld
 A solution to the renowned Wumpus World problem from Artificial Intelligence.
 
-**Note:** The number of moves has been restricted to the nxn, where n is the size of the maze, to avoid infinite looping.
+**Note:** The number of moves has been restricted to nxn, where n is the size of the maze, to avoid infinite looping.
 
 # Sample input
 ![](http://courses.washington.edu/css482/hw60x.png)
