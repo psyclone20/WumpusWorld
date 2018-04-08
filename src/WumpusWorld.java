@@ -22,17 +22,17 @@ class WumpusWorld {
    	 
    	 for(int i=0; i<pits; i++) {
    		 System.out.print("Enter the location of pit " + (i+1) + ": ");
-   		 addPit(4-sc.nextInt(), sc.nextInt()-1);
+   		 addPit(n-sc.nextInt(), sc.nextInt()-1);
    	 }
    	 
    	 System.out.print("\nEnter the location of wumpus: ");
-   	 addWumpus(4-sc.nextInt(), sc.nextInt()-1);
+   	 addWumpus(n-sc.nextInt(), sc.nextInt()-1);
    	 
    	 System.out.print("\nEnter the location of gold: ");
-   	 addGold(4-sc.nextInt(), sc.nextInt()-1);
+   	 addGold(n-sc.nextInt(), sc.nextInt()-1);
    	 
    	 System.out.print("\nEnter the starting location: ");
-   	 int r = 4 - sc.nextInt();
+   	 int r = n - sc.nextInt();
    	 int c = sc.nextInt() - 1;
    	 int rPrev = -1, cPrev = -1;
    	 
